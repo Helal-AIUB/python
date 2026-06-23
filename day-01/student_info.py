@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+department = input("Enter your department: ")
+email = input("Enter your email: ")
+cgpa = input("Enter your CGPA: ")
+
+print("\n Student Profile")
+print("--------------------")
+print("Name:", name)
+print("Age:", age)
+print("Department:", department)
+print("Email:", email)
+print("CGPA:", cgpa)
