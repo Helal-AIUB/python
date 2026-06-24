@@ -58,9 +58,33 @@ Multi Line Comment
 
 
 # Assignment Operator
-num = 20
-num = num + 10
-print(num)
+# num = 20
+# num = num + 10
+# print(num)
+
+#Logical Operator
+# a = 50
+# b = 30
+# print(not (a > b))
+# print(not False)
+# print(not True)
+# print(True and True)
+# print(True and False)
+# print(True or False)
+
+
+# Type Conversion
+# a = 2
+# b = 2.5
+# print(a + b)
+
+# a =  int("5")
+# b = 2
+# print(a + b)
+
+a = 2.4
+a = str(a)
+print(type(a))
 
 # name = input("Enter Your name: ")
 # age = input("Enter Your Age: ")
@@ -72,3 +96,6 @@ print(num)
 # print("Your Department is: ", dept )
 # print("Your CGPA is: ", res )
 
+
+a = int("2")
+print(type(a))
