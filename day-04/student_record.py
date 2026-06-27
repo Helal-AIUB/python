@@ -2,8 +2,14 @@ students = []
 
 # Add Student
 def add_student():
+    id = int(input("Enter ID: "))
+
+    for student in students:
+        if student["id"] == id:
+            print("Error: Student ID already exists!\n")
+            return
     student = {
-        "id": int(input("Enter ID: ")),
+        "id": id,
         "name": input("Enter Name: "),
         "email": input("Enter Email: "),
         "department": input("Enter Department: "),
